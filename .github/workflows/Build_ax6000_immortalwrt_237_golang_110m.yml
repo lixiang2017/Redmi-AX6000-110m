@@ -218,7 +218,7 @@ jobs:
         # 删除临时目录
     #    rm -rf /tmp/OpenClash
                 
-    - name: Configuration Customization - Build_ax6000_immortalwrt_237_110m 
+    - name: Configuration Customization - Build_ax6000_immortalwrt_237_golang_110m 
       run: |
         # 在升级的分支，找到“Quickstart”下方：5. 看到 "# MT7986" 配置文件命令：cp -f defconfig/mt7986-ax6000.config .config 可确认该分支包含 红米AX6000官方原厂闭源
         # 将配置文件从 defconfig 目录复制到根目录并重命名 .config，云编译的目录和官方目录不同，所以命令中必须修改路径
@@ -293,5 +293,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v7
       with:
-        name: ax6000_immortalwrt_237_110m
+        name: ax6000_immortalwrt_237_golang_110m
         path: /builder/openwrt/bin
