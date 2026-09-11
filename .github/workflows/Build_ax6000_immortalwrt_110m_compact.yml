@@ -238,9 +238,13 @@ jobs:
         name: ax6000_immortalwrt_110m_compact
         path: /builder/openwrt/bin
         
+    - name: Generate build date tag
+      run: |
+        echo "BUILD_DATE=$(TZ=Asia/Shanghai date +%Y%m%d-%H%M%S)" >> $GITHUB_ENV
+    
     - name: Create Release
       if: success()
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3  # v2升级v3，直接解决Node20弃用警告
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
