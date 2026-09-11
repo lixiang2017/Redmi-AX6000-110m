@@ -6,15 +6,15 @@
 
 1. 使用脚本“Build_ax6000_LEDE_110m.yml”
 
-   编译适用于hanwckf 大佬的 u-boot/immortalwrt-110m 大分区的固件
+   编译适用于 hanwckf 大佬的 u-boot/immortalwrt-110m 大分区的固件
 
 ---
 
-## 📖 云编译 红米AX6000-immortalwrt/110m大分区（开源）
+## 📖 云编译 红米AX6000-immortalwrt/110m大分区（开源, 24.10）
 
-2. 使用脚本“Build_ax6000_immortalwrt_110m.yml”
+2. 使用脚本“Build_ax6000_immortalwrt_110m_24.10.yml”
 
-   编译适用于hanwckf 大佬的 u-boot/immortalwrt-110m 大分区的固件
+   编译适用于 OpenWrt 24.10 分支的 ImmortalWrt 110M 大分区 u-boot 固件。
 
 ---
 
@@ -22,7 +22,7 @@
 
 2.1. 使用脚本“Build_ax6000_immortalwrt_110m_compact_25.12.yml”
 
-   编译适用于 OpenWrt 25.12 分支的 ImmortalWrt 110M 大分区固件，同步标注为 25.12 版本。
+   编译适用于 OpenWrt 25.12 分支的 ImmortalWrt 110M 大分区 u-boot 固件。
 
 ---
 
@@ -30,7 +30,7 @@
 
 3. 使用脚本“Build_ax6000_immortalwrt_237_110m.yml”
 
-   编译适用于hanwckf 大佬的 u-boot/immortalwrt-110m 大分区的固件
+   编译适用于 hanwckf 大佬的 u-boot/immortalwrt-110m 大分区的固件
 
 ---
 
