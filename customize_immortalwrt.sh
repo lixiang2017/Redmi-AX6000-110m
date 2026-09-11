@@ -16,7 +16,7 @@ sed -i 's/192.168.1.1/192.168.16.1/g' /builder/openwrt/package/base-files/files/
 #rm /builder/openwrt/package/lean/luci-theme-argon -rf
 
 #4. Modify hostname
-sed -i 's/OpenWrt/Redmi-Wrt/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Redmi-Wrt/g' /builder/openwrt/package/base-files/files/bin/config_generate
 
 # ========== 新增：生成uci-defaults 首次开机自动配置 LAN IP + WiFi ==========
 # 源码内files目录，编译时打包进固件
