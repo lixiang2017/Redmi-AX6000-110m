@@ -6,7 +6,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #=================================================
 
-name: Build_ax6000_immortalwrt_110m_compact_24.10
+name: immortalwrt_110m_compact_24.10
 
 # Add a button to trigger the workflow
 on: 
