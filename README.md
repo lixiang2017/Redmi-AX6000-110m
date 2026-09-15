@@ -39,11 +39,9 @@ hanwckf 大佬的仓库目前主要支持 OpenWrt `21.02`：
 
 ### ImmortalWrt 24.10
 
-使用脚本 `immortalwrt_110m_24.10.yml`。
+使用脚本 `immortalwrt_110m_compact_24.10.yml`。
 
 编译适用于 OpenWrt 24.10 分支的 ImmortalWrt 110M 大分区 uboot 固件。
-
----
 
 ### ImmortalWrt 25.12
 
@@ -73,11 +71,6 @@ hanwckf 大佬的仓库目前主要支持 OpenWrt `21.02`：
 使用脚本 `LEDE_110m.yml`。
 
 编译适用于 hanwckf 大佬 uboot / ImmortalWrt 110M 大分区的固件。
-
----
-
-
----
 
 ### ImmortalWrt 23.07（闭源，未充分测试）
 
