@@ -32,7 +32,7 @@ hanwckf 大佬的仓库目前主要支持 OpenWrt `21.02`：
 - `luci-app-daed`：约 65 MB
 - `luci-app-ssr-plus`：约 66 MB
 
-目前已经同时准备了 OpenClash 和 DAE 所需的内核支持，但相关luci-app可能仍需要手动下载。通过压缩固件，固件大小约为 16 MB，overlay 空间最多可保留约 80 MB。
+目前已经同时准备了 OpenClash 和 DAE 所需的内核支持，但相关 luci-app 仍需要手动下载。通过压缩固件，固件大小约为 16 MB，overlay 空间最多可保留约 80 MB。
 
 
 ## 固件配置
